@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class SumaMaxima {
     public static void main(String[] args) {
         System.out.println("El arreglo");
-        int [] arreglo = {-1,1,5,9,-11,-5,8,7,6,3};
+        int [] arreglo = {-1,1,5,9,-11,-5,8,7,6};
         int maxSubArreglo = SumaMaximaDelArreglo(arreglo);
         System.out.println("La suma maxima es: " + maxSubArreglo );
     }
